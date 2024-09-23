@@ -114,12 +114,12 @@
             need.
           </p>
           <input
+            autocomplete="off"
             id="noakhali"
             type="text"
             class="p-4 border border-[rgba(17, 17, 17, 0.1)] rounded-lg"
             placeholder="Write Donation Amount"
           /><button
-            onclick="my_modal_5.showModal()"
             id="donate-now1"
             class="btn w-full bg-primary text-xl font-semibold text-dark hover:bg-primary"
           >
@@ -154,12 +154,12 @@
             disaster.
           </p>
           <input
+            autocomplete="off"
             id="feni"
-            type="number"
+            type="text"
             class="p-4 border border-[rgba(17, 17, 17, 0.1)] rounded-lg"
             placeholder="Write Donation Amount"
           /><button
-            onclick="my_modal_5.showModal()"
             id="donate-now2"
             class="btn w-full bg-primary text-xl font-semibold text-dark hover:bg-primary"
           >
@@ -195,12 +195,12 @@
             alleviating their suffering and aiding in their recovery.
           </p>
           <input
-            type="number"
+            type="text"
+            autocomplete="off"
             id="quota"
             class="p-4 border border-[rgba(17, 17, 17, 0.1)] rounded-lg"
             placeholder="Write Donation Amount"
           /><button
-            onclick="my_modal_5.showModal()"
             id="donate-now3"
             class="btn w-full bg-primary text-xl font-semibold text-dark hover:bg-primary"
           >
@@ -217,10 +217,10 @@
     <!-- Open the modal using ID.showModal() method -->
     <dialog id="my_modal_5" class="modal modal-bottom sm:modal-middle">
       <div class="modal-box flex flex-col justify-center items-center">
-        <h1 class="text-lg font-bold">Congrates!</h1>
-        <img class="w-4 h-4" src="./assets/coin.png" alt="" />
+        <h1 class="text-4xl font-bold">Congrates!</h1>
+        <img class="w-8 h-8 mt-6" src="./assets/coin.png" alt="" />
         <p class="py-4">You Have Donated for Humankind</p>
-        <h2>Successfully</h2>
+        <h2 class="font-bold text-xl">Successfully</h2>
         <div class="modal-action">
           <form method="dialog">
             <!-- if there is a button in form, it will close the modal -->
