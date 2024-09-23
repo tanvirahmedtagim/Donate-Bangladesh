@@ -37,9 +37,9 @@
       };
     </script>
   </head>
-  <body class="font-lexend w-screen">
+  <body class="font-lexend lg:w-screen lg:overflow-x-hidden">
     <!-- header section stars here -->
-    <header class="sticky top-0 border-b border-[rgba(17, 17, 17, 0.1)]">
+    <header class="sticky top-0 left-0 border-b border-[rgba(17, 17, 17, 0.1)]">
       <nav class="backdrop-blur-2xl pt-1 lg:pt-2">
         <div class="navbar lg:w-11/12 mx-auto">
           <div class="navbar-start">
@@ -53,7 +53,11 @@
           </div>
           <div class="gap-4 lg:flex w-[33%] justify-center">
             <div>
-              <img src="./assets/logo.png" alt="" />
+              <img
+                class="lg:w-full lg:h-full h-8 w-8"
+                src="./assets/logo.png"
+                alt=""
+              />
             </div>
             <p class="hidden lg:flex justify-between text-xl font-semibold">
               Donate Bangladesh
@@ -69,7 +73,7 @@
         <!--? Donation and history button -->
 
         <div
-          class="flex justify-center lg:pt-8 lg:pb-8 gap-6 pb-4 pt-10 backdrop-blur-2xl"
+          class="flex justify-center lg:pt-8 lg:pb-8 gap-4 pb-4 pt-10 backdrop-blur-2xl"
         >
           <a
             id="donation"
