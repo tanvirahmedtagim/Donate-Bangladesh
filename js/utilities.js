@@ -9,7 +9,7 @@ function fromValue(id) {
     return inputNumber;
   }
 }
-//get va;ue from innner text
+//get value from innner text
 function fromText(id) {
   const textValue = parseFloat(document.getElementById(id).innerText);
   const textNumber = parseFloat(textValue.toFixed(2));
